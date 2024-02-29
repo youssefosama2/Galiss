@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <title> Login-Galis </title>
+    <link rel="website icon" type="png" href="img/WhatsApp Image 2023-11-15 at 9.31.41 PM.jpeg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/login.CSS">
+</head>
+<body>
+<section class="login-wrap">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign In</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+		<div class="login-form">
+			<!-- Start log-in -->
+			<form class="sign-in-htm" action="Home.html"  onsubmit="return formValidatelogin()">
+				<p class="erorr" id="Erorr"></p>
+				<div class="group">
+					<label for="youremail" class="label">email</label>
+					<input id="youremail" type="email" name="email" class="input">
+				</div>
+				<div class="group">
+					<label for="yourpass" class="label">Password</label>
+					<input id="yourpass" type="password" name="password" class="input">
+				</div>
+				<div class="group">
+					<input id="check" type="checkbox" class="check" checked>
+					<label for="check"><span class="icon"></span> Keep me Signed in</label>
+				</div>
+				<div class="group">
+					<input type="submit" class="button" value="Sign In">
+				</div>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					<a href="#forgot">Forgot Password?</a>
+					<a href="Login-Admin.html">Admin</a>
+				</div>
+			</form>
+			<!-- end log-in -->
+			<!-- Start sign-up -->
+			<form class="sign-up-htm" action="login.html" onsubmit="return formValidatelogup()">
+				<p class="erorr" id="Erorr2"></p>
+				<div class="group">
+					<label for="Name" class="label">Username</label>
+					<input id="Name" type="text" name="name" class="input">
+				</div>
+				<div class="group">
+					<label for="Email" class="label">Email Address</label>
+					<input id="Email" type="email" name="email" class="input">
+				</div>
+				<div class="group">
+					<label for="password" class="label">Password</label>
+					<input id="password" type="password" name="password" class="input">
+				</div>
+				<div class="group">
+					<label for="repeatPassword" class="label">Repeat Password</label>
+					<input id="repeatPassword" type="password" class="input">
+				</div>
+
+				<div class="group">
+					<input type="submit" class="button" value="Sign Up">
+				</div>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+                    <input type="text" class="sign-in"><label for="tab-1">Already Member?</label>
+				</div>
+			</form>
+			<!-- end sign-up -->
+		</div>
+	</div>
+</section>
+<script src="js/main.js"></script>
+</body>
+</html>
