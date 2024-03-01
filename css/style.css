@@ -75,6 +75,9 @@ nav .container .nav-item  .log-out:hover{
   margin: 15px 0 0 0;
   font-size: 26px;
 }
+.hero .hero-img img{
+  padding-bottom: 20px;
+}
 .hero .btn-get-started {
   text-decoration: none;
   margin-top: 30px;
@@ -103,12 +106,14 @@ nav .container .nav-item  .log-out:hover{
 @media (min-width: 1024px) {
   .hero {
     background-attachment: fixed;
+    padding: 120px 0 60px 0;
   }
 }
 @media (max-width: 991px) {
   .hero {
     height: auto;
-    padding: 120px 0 60px 0;
+
+    /* padding: 120px 0 60px 0; */
   }
   .hero .hero-img {
     text-align: center;
@@ -130,6 +135,7 @@ nav .container .nav-item  .log-out:hover{
   }
   .hero .hero-img img {
     width: 100%;
+
   }
 }
 /* end section hero */
