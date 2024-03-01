@@ -112,12 +112,10 @@ nav .container .nav-item  .log-out:hover{
 @media (max-width: 991px) {
   .hero {
     height: auto;
-
-    /* padding: 120px 0 60px 0; */
   }
   .hero .hero-img {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 20px;
   }
   .hero .hero-img img {
     width: 80%;
@@ -135,7 +133,6 @@ nav .container .nav-item  .log-out:hover{
   }
   .hero .hero-img img {
     width: 100%;
-
   }
 }
 /* end section hero */
