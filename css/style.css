@@ -1102,7 +1102,7 @@ footer .Copyright i{
 
 
 /* login Admin */
-.form-admin{
+.Login-Admin{
   margin: 100px auto 0;
   height: 100%;
   display: flex;
@@ -1136,6 +1136,32 @@ footer .Copyright i{
   background-color: #1877F2;
   color: white;
 }
+/* login Admin */
+.signUp-admin{
+  padding: 40px;
+}
+.signUp-admin h3{
+  font-size: 30px;
+  text-align: center;
+  color: #1877F2;
+}
+.signUp-admin .erorr{
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+.signUp-admin .group input{
+  width: 300px;
+  padding: 10px 16px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.signUp-admin .group .button{
+  background-color: #1877F2;
+  color: white;
+}
 /* dashboard admin */
 .body-Admin{
   background-color: #001;
@@ -1152,9 +1178,8 @@ footer .Copyright i{
   padding:  20px 20px 0 0;
   overflow: hidden;
   transition: .5s;
-}
-.sec-body .menu:hover{
-  width: 280px;
+  position: sticky;
+  top: 0;
 }
 .sec-body .menu ul{
   list-style: none;
@@ -1220,7 +1245,11 @@ footer .Copyright i{
   .sec-body .menu li a:hover , .active{
     background-color: #ffffff55;
   }
+  .sec-body .menu:hover{
+    width: 280px;
+  }
 }
+/* service admin */
 .sec-body .content{
   width: 100%;
   margin: 10px;
@@ -1295,7 +1324,7 @@ footer .Copyright i{
   margin: 40px 30px;
   font-size: 30px;
 }
-.data-info .boxx input{
+.data-info .boxx .input{
   display: block;
   width: 50%;
   padding: 10px 16px;
@@ -1307,17 +1336,61 @@ footer .Copyright i{
   background-color: #123;
   color: white;
 }
+.data-info .boxx .form-check{
+  display: flex;
+  margin: 10px 20px;
+  color: white;
+}
+.data-info .boxx .form-check label{
+  margin-left: 10px;
+  font-size: 18px;
+}
 .data-info .boxx button{
+  margin:  20px;
+  padding: 10px 40px;
+  background-color: #0481FF;
+  border-radius: 8px;
+  color: white;
+}
+.sec-body .content table td{
+  padding: 10px;
+  font-size: 18px;
+  align-content: center;
+  overflow: auto;
+}
+.sec-body .content .btn-Add-Service a{
   margin: 20px;
   padding: 10px 40px;
   background-color: #0481FF;
   border-radius: 8px;
   color: white;
 }
-
-
-
-
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+@media (max-width: 768px){
+  .sec-body .content table th{
+  font-size: 13px;
+  }
+  .sec-body .content table td{
+    font-size: 10px;
+  }
+  .sec-body .content table td img{
+    width: 70px;
+  }
+  .sec-body .name-Service h2{
+    font-size: 18px;
+  }
+  .sec-body .content .btn-Add-Service a{
+    margin: 20px;
+    padding: 10px 20px;
+  }
+  .table-wrapper {
+    width: 350px;
+    overflow-x: auto;
+  }
+}
 
 
 /* service-provider */

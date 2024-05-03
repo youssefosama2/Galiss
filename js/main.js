@@ -230,24 +230,24 @@ function ValidatelogupAdmin(){
         if(name.length < 5){
         text ="please Enter valid name";
         erorr.innerHTML= text;
-        yourname.style.border = "1px solid red";
+        yourname.style.border = "2px solid red";
         return false;
     }else if(email.indexOf("@") == -1 || email.length < 10){
         text ="please Enter valid email";
         erorr.innerHTML= text;
         yourname.style.border = "1px solid #DDDFE2";
-        youremail.style.border = "1px solid red";
+        youremail.style.border = "2px solid red";
         return false;
     }else if(Password.length < 6){
         text ="please Enter valid password";
         erorr.innerHTML= text;
-        yourpass.style.border = "1px solid red";
-        youremail.style.border = "1px solid #DDDFE2";
+        yourpass.style.border = "2px solid red";
+        youremail.style.border = "2px solid #DDDFE2";
         return false;
     }else if(Password !== confirmPassword ) {
         text ="please Enter valid Password";
         erorr.innerHTML= text;
-        repeatPassword.style.border = "1px solid red";
+        repeatPassword.style.border = "2px solid red";
         yourpass.style.border = "1px solid #DDDFE2";
         return false;
     }else{

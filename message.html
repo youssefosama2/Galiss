@@ -29,7 +29,7 @@
                     </a>
                 </li>
                 <li>
-                    <a class="active" href="signUp-Admin.html">
+                    <a href="signUp-Admin.html">
                         <i class="fa-solid fa-user"></i>
                         <p>Admin</p>
                     </a>
@@ -47,7 +47,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="message.html">
+                    <a class="active"  href="#!">
                         <i class="fa-solid fa-envelope"></i>
                         <p>message</p>
                     </a>
@@ -66,40 +66,61 @@
             <i class="fa-regular fa-chart-bar"></i>
         </div>
         <div class="data-info">
-            <section class="form-admin">
-                <div class="boxx">
-                    <form class="signUp-admin" action="Login-Admin.html" onsubmit="return ValidatelogupAdmin()">
-                        <div>
-                        <h3>Add admin </h3>
-                        </div>
-                        <p class="erorr" id="Erorr"></p>
-                        <div class="group">
-                            <input id="yourname" type="text" name="name" placeholder="Name">
-                        </div>
-                        <div class="group">
-                            <input id="youremail" type="email" name="email" placeholder="email">
-                        </div>
-                        <div class="group">
-                            <input id="yourpass" type="password" name="password" placeholder="Password">
-                        </div>
-                        <div class="group">
-                            <input id="repeatPassword" type="password" placeholder="repeat Password">
-                        </div>
-                        <div class="group">
-                            <input type="submit" class="button" value="Sign Up">
-                        </div>
-                    </form>
+            <div class="container-fluid">
+                <div class="name-Service p-3">
+                    <h2>Message</h2>
                 </div>
-            </section>
-         </div>
+                <table class="table table-dark table-hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Subject</th>
+                            <th>Message</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>youssef</td>
+                            <td>youssef@gmail.com</td>
+                            <td>Subject</td>
+                            <td>Message</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>youssef</td>
+                            <td>youssef@gmail.com</td>
+                            <td>Subject</td>
+                            <td>Message</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>youssef</td>
+                            <td>youssef@gmail.com</td>
+                            <td>Subject</td>
+                            <td>Message</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>youssef</td>
+                            <td>youssef@gmail.com</td>
+                            <td>Subject</td>
+                            <td>Message</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </section>
 </section>
+
 <!-- End your project here-->
 
 <!-- Custom scripts -->
     <script src="js\bootstrap.bundle.min.js"></script>
     <script src="js\wow.min.js"></script>
-    <script src="js/main.js"></script>
     <script>
     new WOW().init();
     </script>

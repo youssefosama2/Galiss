@@ -29,13 +29,13 @@
                     </a>
                 </li>
                 <li>
-                    <a class="active" href="signUp-Admin.html">
+                    <a href="signUp-Admin.html">
                         <i class="fa-solid fa-user"></i>
                         <p>Admin</p>
                     </a>
                 </li>
                 <li>
-                    <a href="request.html">
+                    <a class="active"  href="#!">
                         <i class="fa-solid fa-users"></i>
                         <p>request</p>
                     </a>
@@ -66,40 +66,52 @@
             <i class="fa-regular fa-chart-bar"></i>
         </div>
         <div class="data-info">
-            <section class="form-admin">
-                <div class="boxx">
-                    <form class="signUp-admin" action="Login-Admin.html" onsubmit="return ValidatelogupAdmin()">
-                        <div>
-                        <h3>Add admin </h3>
-                        </div>
-                        <p class="erorr" id="Erorr"></p>
-                        <div class="group">
-                            <input id="yourname" type="text" name="name" placeholder="Name">
-                        </div>
-                        <div class="group">
-                            <input id="youremail" type="email" name="email" placeholder="email">
-                        </div>
-                        <div class="group">
-                            <input id="yourpass" type="password" name="password" placeholder="Password">
-                        </div>
-                        <div class="group">
-                            <input id="repeatPassword" type="password" placeholder="repeat Password">
-                        </div>
-                        <div class="group">
-                            <input type="submit" class="button" value="Sign Up">
-                        </div>
-                    </form>
+            <div class="container-fluid">
+                <div class="name-Service p-3">
+                    <h2>Message</h2>
                 </div>
-            </section>
-         </div>
+                <div class="table-wrapper">
+                    <table class="table table-dark table-hover overflow-auto">
+                        <thead>
+                            <tr> 
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Number</th>
+                                <th>age</th>
+                                <th>img</th>
+                                <th>ID</th>
+                                <th>Message</th>
+                                <th>Service</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>youssef</td>
+                                <td>Subject</td>
+                                <td>35</td>
+                                <td>
+                                    <img src="img/07.jpg" width="150px" alt="">
+                                </td>
+                                <td>
+                                    <img src="img/07.jpg" width="150px" alt="">
+                                </td>
+                                <td>Message</td>
+                                <td>Service</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
     </section>
 </section>
+
 <!-- End your project here-->
 
 <!-- Custom scripts -->
     <script src="js\bootstrap.bundle.min.js"></script>
     <script src="js\wow.min.js"></script>
-    <script src="js/main.js"></script>
     <script>
     new WOW().init();
     </script>
